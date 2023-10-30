@@ -1,0 +1,23 @@
+name: device_data
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  advertising_id: ^2.5.0
+  battery_plus: ^4.1.0
+  device_info_plus: ^9.1.0
+  flutter_jailbreak_detection: ^1.10.0
+  path_provider: ^2.1.1
+#  platform_device_id_v3: ^1.0.0
+  share_plus: ^7.2.1
+  unique_identifier: ^0.3.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
